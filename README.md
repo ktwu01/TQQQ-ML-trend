@@ -44,6 +44,7 @@ Create a virtual environment and install the project dependencies:
 python -m venv .venv
 source .venv/bin/activate  # On Windows use `.venv\\Scripts\\activate`
 pip install -r requirements.txt
+python -m compileall src
 ```
 
 ### Optional deep learning backends
